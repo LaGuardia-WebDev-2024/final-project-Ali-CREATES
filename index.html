@@ -1,15 +1,15 @@
 <!-- Final Project
 Requirements
-[  ] Customized HTML Page #1
-[  ] Customized HTML Page #2 
-[  ] Customized HTML Page #3
-[  ] Customized HTML Page #4
+[YES] Customized HTML Page #1
+[YES] Customized HTML Page #2 
+[YES] Customized HTML Page #3
+[YES] Customized HTML Page #4
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Google Font
 [ no ] Feature 2 - Upload a Font
 [ no ] Feature 3 - Include jQuery
-[ no ] Feature 4 - Embed Code from Spotify/Google Docs/YouTube
+[ YES ] Feature 4 - Embed Code from Spotify/Google Docs/YouTube
 [ no ] Feature 5 - Customized HTML Page #5
 -->
 
@@ -23,9 +23,12 @@ Select ONE Additional Feature to Add
       /* Styling Only Related To THIS Page */
       /*~~~~~ Taken From:
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
+      body {
+      background-color: #191D32;
+    }
       .parallax {
         /* The image used */
-        background-image: url("https://cdn.glitch.global/66249578-345e-4e9c-8fac-cabe98f682e4/image0.jpeg?v=1747657278943");
+        background-image: url("https://cdn.glitch.global/b6f56d81-79c7-4a10-a300-8f2f83efe35a/DSC00858.jpg?v=1749780052140");
 
         /* Set a specific height */
         min-height: 500px;
@@ -38,14 +41,14 @@ Select ONE Additional Feature to Add
       }
       .textblock {
         min-height: 500px;
-        background-color: black;
+        background-color: #282F44;
         color: white;
       }
       .parent-flex {
         display: flex;
       }
       .child-flex {
-        background-color: green;
+        background-color: #6D3B47;
         margin: 30px;
         padding: 10px;
         text-align: justify;
@@ -62,7 +65,7 @@ Select ONE Additional Feature to Add
     <ul class="nav">
       <li><a class="active" href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
+      <li><a href="art.html">My Work</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li style="float: right">
         <a target="_blank" href=""
@@ -81,32 +84,22 @@ Select ONE Additional Feature to Add
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2024-2025</h1>
+    <h1 style="color: white;">Alimayu Park</h1>
+     
+        
     <div class="parallax"></div>
 
     <div class="textblock parent-flex">
+       
+      
       <div class="child-flex para-1">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+        
+
+Hi, my name is Alimayu Park, and I am an NY-based actor who is also passionate about filmmaking. I've gone to LaGuardia High School for 3 years as a drama major and have received a fruitful education in on-stage acting and ensemble work. I've also taken a Film Literature class at LaGuardia for 1 year, which sparked a new passion for filmmaking and led me on a journey to become a part of the film industry and begin creating my own films.
         </p>
       </div>
-      <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
-      </div>
+      
     </div>
   </body>
 </html>

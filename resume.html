@@ -5,7 +5,27 @@
     <title>Final Project</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
-      /* Styling Only Related To THIS Page */
+       body {
+      background-color: #191D32;
+    }
+      .parent-flex {
+        display: flex;
+        background-color: #282F44;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 50px;
+       color: white;
+      }
+
+      .parent-flex img {
+        width: 150px;
+        padding: 20px;
+      }
+      .child-flex p {
+        background-color: #6D3B47;
+        padding: 20px;
+        margin: 20px;
+      }
     </style>
   </head>
   <body>
@@ -13,7 +33,7 @@
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
+      <li><a href="art.html">My Work</a></li>
       <li><a class="active" href="resume.html">Resume</a></li>
       <li style="float: right">
         <a target="_blank" href=""
@@ -31,7 +51,43 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Resume</h1>
+     <h1 style="color: white;">My Resume</h1>
+    <div class="parent-flex">
+      <div class="child-flex">
+        <img
+          src="https://cdn.glitch.global/b6f56d81-79c7-4a10-a300-8f2f83efe35a/IMG_6551.jpg?v=1749780420178"
+        />
+      </div>
+      <div class="child-flex">
+        <h2> Educational Theater </h2>
+        <p>
+         <li> Silver Linings Playbook	(Scene)			Pat			 LaGuardia HS Studio Theatre </li>
 
+<li>Buffalo 66 (Scene) 				Billy			 LaGuardia HS Studio Theatre</li> 
+<li>Henry V (Scene) 				Henry			 LaGuardia HS Studio Theatre</li>
+<li>Measure for Measure (Scene) 			Claudio 		 LaGuardia HS Studio Theatre</li>
+<li>Peoples Places and Things (One Act) 		Foster			 LaGuardia HS Little Flower Theater</li>
+<li>Of Mice and Men (Scene)			George			 LaGuardia HS Studio Theatre</li>
+<li>Peter and the Starcatcher (Full Play)                    Boy/Peter		 LaGuardia HS Little Flower Theater</li>
+
+        </p>
+      </div>
+    </div>
+    <div class="parent-flex">
+      <div class="child-flex">
+        <h3>
+           <li>Next Step Theater Festival</li>
+        </h3>
+        <p>
+         Portrayed Gabriel in original play, <strong>Well, Here We Are</strong> by Patrick Lawton at A.R.T/New York Theatres.
+        </p>
+      </div>
+      <div class="child-flex">
+        <img
+          src="https://res.cloudinary.com/onthestage/image/upload/f_auto,w_1000,h_695/custom_shows/nlo6vvpokyn9dvwl5p9e.png"
+        />
+      </div>
+    </div>
   </body>
 </html>
+

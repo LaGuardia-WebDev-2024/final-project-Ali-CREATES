@@ -6,17 +6,40 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      body {
+      background-color: #191D32;
+    }
+      .parallax {
+        /* The image used */
+        background-image: url("https://cdn.glitch.global/b6f56d81-79c7-4a10-a300-8f2f83efe35a/image%20(10).png?v=1749772407392");
+
+        /* Set a specific height */
+        min-height: 600px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .textblock {
+        min-height: 500px;
+        background-color: #282F44;
+        color: white;
+      }
       .parent-flex {
         display: flex;
-        background-color: purple;
-        justify-content: space-around;
-        padding: 10px;
-        margin-bottom: 20px;
       }
-
-      .parent-flex img {
-        max-width: 30%;
-        border-radius: 10px;
+      .child-flex {
+        background-color: #6D3B47;
+        margin: 30px;
+        padding: 10px;
+        text-align: justify;
+        width: 40%;
+      }
+      .para-1{
+        display: flex;
+        align-items: center;
       }
     </style>
   </head>
@@ -25,7 +48,7 @@
     <ul class="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a class="active" href="art.html">Art</a></li>
+      <li><a class="active" href="art.html">My Work</a></li>
       <li><a href="resume.html">Resume</a></li>
       <li style="float: right">
         <a target="_blank" href=""
@@ -43,24 +66,27 @@
       </li>
     </ul>
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>My Art</h1>
+    <h1 style="color: white;">TWO BLOWS</h1>
+     
+        
+    <div class="parallax"></div>
 
-    <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
-    </div>
-
-    <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+    <div class="textblock parent-flex">
+       
+      
+    
+          <h2 align="center" style="font-family: OCR A Std, monospace">
+     Two highschoolers who have a tendency to solve problems with their fists are forced to spend the weekend together after getting into an altercation in a classroom. Little do they know, they're not the only ones who like solving problems with their fists.
+    
+     <p align="center">
+       
+     <iframe width="1000" height="600"
+src="https://youtube.com/embed/GBsVV8VEsIk">
+</iframe></p>
+    </h2>
+      </div>
+      
     </div>
   </body>
 </html>
+
